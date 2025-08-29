@@ -1,0 +1,45 @@
+*{
+  Margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: transparent;
+}
+p{
+height:10vh;
+text-align: center;
+color: white;
+font-weight: 800;
+font-size: 3rem;
+}
+body{
+  background-image: linear-gradient(rgba(247, 4, 4, 0.8),rgba(7, 7, 7, 0.8)), url(RMOO.jpg);
+  justify-items: center;
+}
+button{
+  border: none;
+  border-radius: 20PX;
+  background: url(RMOO.jpg);
+}
+.btn{
+  border: none;
+  justify-items: center;
+}
+a{
+  border-radius: 30px;
+  background: url(RMOO.jpg);
+  color:rgb(71, 48, 48)
+}
+p:hover{
+  color: rgb(174, 171, 175);
+  transition: 360ms ease-in-out;
+}
+a:hover{
+  color:rgb(255, 0, 0);
+  transition: 360ms ease-in;
+}
